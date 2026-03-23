@@ -11,7 +11,6 @@ import java.time.LocalTime;
 @Entity
 public class Student {
     @Id
-    //Laver primary key
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
