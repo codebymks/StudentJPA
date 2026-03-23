@@ -11,10 +11,8 @@ import java.time.LocalTime;
 
 public class initData implements CommandLineRunner {
 
-    //Dependency injection.
     @Autowired
-    //implementation af interface
-   private StudentRepository studentRepository;
+    private StudentRepository studentRepository;
 
     @Override
     public void run(String... args) throws Exception {
